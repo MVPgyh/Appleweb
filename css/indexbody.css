@@ -1,0 +1,263 @@
+@font-face {
+    font-family: fontzh3 ;
+    src: url("../font/sf-pro-display_semibold.woff2");
+}
+
+@font-face {
+    font-family: fonzh4;
+    src: url("../font/sf-pro-text_regular.woff2");
+}
+
+#mainbody .indexfirst {
+    margin-top: 44px;
+    /*width: 100%;*/
+    height: 580px;
+    background-image: url(../imags/hero_iphone14__fjmsqstr1ceq_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0.1px solid transparent;
+    position: relative;
+}
+
+#mainbody .indexfirst h2 {
+    margin-top: 47px;
+    text-align: center;
+    font-size: 56px;
+    font-family: fontzh3;
+}
+
+#mainbody .indexfirst h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#mainbody .indexfirst .goumai {
+    font-family: fontzh1;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+#mainbody .indexfirst .goumai a {
+    color: #2e7ece;
+}
+
+#mainbody .indexfirst .goumai a:hover {
+    text-decoration: underline;
+}
+
+/*-----------------------------*/
+#mainbody .indexsecond {
+    margin-top: 15px;
+    width: 100%;
+    height: 580px;
+    position: relative;
+
+}
+
+#mainbody .indexsecond video {
+    width: 100%;
+    height: 580px;
+    object-fit: cover;
+    position: absolute;
+}
+
+
+#mainbody .indexsecond .secondwenzi {
+    width: 100%;
+    /*background-color: #fff;*/
+    position: absolute;
+    z-index: 100;
+    text-align: center;
+    color: #f3f3f6;
+    font-family: fontzh1;
+
+}
+
+#mainbody .indexsecond .secondwenzi h2 {
+
+    font-size: 56px;
+    line-height: 60px;
+    font-weight: 600;
+    margin-top: 340px;
+}
+
+#mainbody .indexsecond .secondwenzi h3 {
+    margin-top: 9px;
+    font-size: 28px;
+}
+
+#mainbody .indexsecond .secondwenzi h4 {
+    margin-top: 14px;
+    font-size: 21px;
+    color: #2e7ece;
+
+}
+
+#mainbody .indexsecond .secondwenzi h4 a {
+    color: #2e7ece;
+}
+
+#mainbody .indexsecond .secondwenzi h4 a:hover {
+    text-decoration: underline;
+}
+
+/*--------------------------*/
+#mainbody .indexthird {
+    margin-top: 12px;
+    width: 100%;
+    height: 580px;
+    position: relative;
+    background-image: url(../imags/hero_ipadpro_order__fpc2supjug66_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#mainbody .indexthird .thirdwenti {
+    margin-top: 15%;
+    margin-left: 20%;
+    position: absolute;
+    /*border: 1px solid red;*/
+    color: #f3f3f6;
+    text-align: center;
+}
+
+#mainbody .indexthird .thirdwenti h4 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#mainbody .indexthird .thirdwenti h3 {
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.1;
+    font-weight: 400;
+    letter-spacing: 0.004em;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#mainbody .indexthird .thirdwenti img {
+    display: inline-block;
+}
+
+#mainbody .indexthird .thirdwenti p a:hover {
+    text-decoration: underline;
+}
+
+#mainbody .indexthird .thirdwenti p a {
+    color: #2790f4;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/*--------------------*/
+#mainbody .chanpin {
+    margin: 10px auto;
+    width: 98%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 12px;
+}
+
+#mainbody .chanpin > div {
+    position: relative;
+    height: 664px;
+    background-color: #a86666;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #2790f4;
+}
+
+#mainbody .chanpin > div h2 {
+    margin-top: 53px;
+    color: #f3f3f6;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+#mainbody .chanpin > div h3 {
+    font-weight: 200;
+    color: #f3f3f6;
+}
+
+#mainbody .chanpin > div div {
+    margin-top: 18px;
+}
+
+#mainbody .chanpin a {
+    color: #2790f4;
+    font-weight: 525;
+    font-size: 14px;
+}
+
+#mainbody .chanpin a:hover {
+    text-decoration: underline;
+}
+
+#mainbody .chanpin > div img {
+    margin-top: 53px;
+}
+
+#mainbody .chanpin > div:nth-child(1) {
+    background-image: url("../imags/promo_iphone14pro__4n4twj56fzmu_large.jpg");
+}
+
+#mainbody .chanpin > div:nth-child(2) {
+    background-image: url("../imags/promo_ipad__fioegapg12qi_large.jpg");
+}
+
+#mainbody .chanpin > div:nth-child(2) h2 {
+    color: black;
+}
+
+#mainbody .chanpin > div:nth-child(2) h3 {
+    font-weight: 450;
+    color: #171515;
+}
+
+#mainbody .chanpin > div:nth-child(3) {
+    background-image: url("../imags/promo_airpods_pro_avail__gaxggskofx6y_large.jpg");
+
+}
+
+#mainbody .chanpin > div:nth-child(4) {
+    background-image: url("../imags/promo_apple_watch_series_8__ch7rexplmihe_large.jpg");
+}
+
+#mainbody .chanpin > div:nth-child(5) {
+    background-image: url("../imags/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg");
+
+}
+
+#mainbody .chanpin > div:nth-child(5) h3 {
+    color: black;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+#mainbody .chanpin > div:nth-child(6) {
+    background-image: url("../imags/tile_homepod_mini__b73w4z3ljymu_large.jpg");
+}
+
+#mainbody .chanpin > div:nth-child(6) h3 {
+    color: black;
+    margin-top: 53px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+

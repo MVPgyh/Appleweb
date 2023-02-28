@@ -1,0 +1,144 @@
+#login .biaoti h1 {
+    width: 65%;
+    margin: 10px auto;
+    margin-top: 34px;
+    font-size: 40px;
+    font-family: fontzh1;
+    font-weight: 600;
+    min-width: 1100px;
+}
+
+#data {
+    font-size: 25px;
+}
+
+#login .denglu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 180px;
+}
+
+#login .loginnr h2 {
+    margin-top: 50px;
+    font-size: 24px;
+    text-align: center;
+    font-family: fontzh2;
+    margin-bottom: 13px;
+}
+
+@keyframes xianshi {
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.biaodan .etips {
+    text-align: center;
+    line-height: 45px;
+    color: #100d0d;
+    font-weight: 600;
+    font-family: english;
+    position:relative;
+    /*border: 1px solid #2e7ece;*/
+    box-sizing: border-box;
+    height: 45px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: none;
+    animation-name: xianshi;
+    animation-duration: 1s;
+    z-index:-10;
+    background-color: #2e7ccc;
+}
+
+.biaodan .etips:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px;
+    position: absolute;
+    top: 100%;
+    border-color: #2e7ece transparent transparent  transparent;
+    border-bottom-width: 0;
+}
+
+form{
+    position: relative;
+}
+
+.biaodan form > input {
+    display: block;
+    width: 325px;
+    height: 45px;
+    border: 1px solid #d6d6d6;
+    padding-left: 15px;
+    border-radius: 6px;
+    font-size: 17px;
+    color: #1b1b1c;
+    position: relative;
+}
+.useimg{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    color: #404042;
+    border-radius: 50%;
+    border: 1px solid #94949a;
+    top: 10px;
+    right: 8px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 999;
+    transition: 0.6s transform ease-in-out;
+}
+.useimg:hover{
+    color: #2e7ece;
+}
+
+
+
+.biaodan input[type="password"] {
+    visibility: hidden;
+}
+
+.biaodan form > input:focus {
+    outline: none;
+    box-shadow: 0 0 1px 1px blue;
+}
+
+.biaodan .xuanze {
+    margin-top: 30px;
+    font-size: 17px;
+    color: #656569;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.biaodan .forgetpass {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 14px;
+    color: #94949a;
+}
+
+.biaodan .forgetpass a, .bangzhu a {
+    color: #2e7ece;
+    font-family: english;
+}
+
+.biaodan .forgetpass a:hover, .bangzhu a:hover {
+    text-decoration: underline;
+}
+
+.dianhua .bangzhu {
+    width: 70%;
+    padding-left: 80px;
+    margin: 30px auto;
+    font-size: 15px;
+}

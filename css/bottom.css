@@ -1,0 +1,61 @@
+#footerbottom .footer{
+    background-color: #f3f3f6;
+}
+
+#footerbottom .footer .pagedw {
+    padding-top: 20px;
+    margin-top: 15px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#footerbottom .footer .pagedw > div {
+    width: 196px;
+    /*background-color: #ff3c3c;*/
+    padding: 0;
+}
+#footerbottom .footer .pagedw > div p{
+    font-family: fontzh1;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+#footerbottom .footer .pagedw > div li{
+    margin-bottom: 10px;
+    font-size: 10px;
+    font-weight: 250;
+    color: rgb(66,66,69);
+    cursor: pointer;
+}
+#footerbottom .footer .pagedw > div li:hover{
+    text-decoration: underline;
+}
+
+
+#footerbottom .banquan div{
+    color: #94949a;
+    font-size: 12px;
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 34px;
+}
+#footerbottom .banquan div:nth-child(1){
+    margin-bottom: 5px;
+}
+#footerbottom .banquan div a:hover{
+    text-decoration: underline;
+}
+#footerbottom .banquan  hr{
+    display: block;
+    width: 980px;
+    margin: 3px auto;
+}
+#footerbottom .banquan div:nth-child(3){
+    margin-top: 5px;
+    padding-bottom: 15px;
+}
+#footerbottom .banquan div:nth-child(3) span{
+    color: #666669;
+}
